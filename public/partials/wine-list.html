@@ -1,0 +1,9 @@
+<ul>
+	<li ng-repeat="wine in wines">
+        	<a href="#/wines/{{wine._id}}">{{wine.name}}</a> <input type="button" value="delete" ng-click="deleteWine($index)"/>
+        </li>
+</ul>
+<form ng-submit="addWine()">
+	<input type="text" ng-model="wineName"  size="30" placeholder="add new wine here">
+        <input  type="submit" value="add">
+</form>

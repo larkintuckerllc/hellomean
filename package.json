@@ -1,0 +1,13 @@
+{
+	"name": "hellomean",
+	"description": "hello mean",
+	"version": "0.0.1",
+	"private": true,
+	"dependencies": {
+		"connect": "latest",
+		"serve-static": "latest",
+		"body-parser": "latest",
+    		"express": "latest",
+		"mongodb": "latest"
+	}
+}
